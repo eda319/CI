@@ -1,0 +1,6 @@
+FROM node:20
+WORKDIR /app
+COPY package.json package-lock.json ./
+RUN npm install --ignore-scripts
+COPY . .
+CMD [ "npm", "start" ]
