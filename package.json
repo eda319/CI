@@ -7,10 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx",
-    "preview": "vite preview",
-    "prepare": "husky install"
+    "preview": "vite preview"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.12.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -38,4 +38,3 @@
     ]
   }
 }
-
